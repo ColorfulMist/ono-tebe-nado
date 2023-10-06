@@ -1,10 +1,52 @@
+body {
+  width: 100%;
+  background-color: pink;
+}
+
+
+
 header {
   display: flex;
-  height: 293px;
-  width: 100%;
+  margin: 92px 49px 92px 51px;
+  padding: 0;
+  height: 109px;
   background-color: white;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  
+}
+
+.header__links-list-item {
+  margin: 43px 16px 45px 16px;
+  list-style: circle;
+  
+}
+
+.header__link {
+}
+
+.header__links-list-item_no-bullit {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 0;
+  margin-right: 16px;
+}
+
+.header__link_active{
+  text-decoration: underline;
 }
 
 .header__logo {
