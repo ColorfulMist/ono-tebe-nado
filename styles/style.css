@@ -61,7 +61,7 @@ main {
   padding: 0;
 }
 
-address {
+.address {
   display: flex;
   flex-direction: column;
   gap: 6.3px;
@@ -167,4 +167,57 @@ address {
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
+}
+
+.lots {
+  display: flex;
+  width: 1340px;
+  height: 579px;
+  background-color: pink;
+  margin: 180px 50px 0px 50px;
+  flex-direction: row;
+}
+
+.lots__heading {
+
+}
+
+.lots__card-list {
+
+}
+
+.lots__card-list-item {
+
+}
+
+.card-link {
+
+}
+
+.card {
+
+}
+
+.card_type_film {
+
+}
+
+.card_type_book {
+
+}
+
+.card_type_picture {
+
+}
+
+.card__title {
+
+}
+
+.card__text {
+
+}
+
+.lots__look-more-link {
+
 }
