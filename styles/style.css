@@ -23,10 +23,6 @@ main {
   padding: 0;
 }
 
-section {
-
-}
-
 .header__menu {
   display: flex;
   margin: 0;
@@ -49,10 +45,6 @@ section {
 .header__links-list-item {
   margin: 43px 16px 45px 16px;
   list-style: circle;
-}
-
-.header__link {
-
 }
 
 .header__links-list-item_no-bullit {
@@ -315,20 +307,15 @@ section {
 .about__logo {
   display: flex;
   grid-area: logo;
-  justify-content: center;
-  
+  width: 240px;
+  height: 240px;
+  margin: 0 95px;
+  border-radius: 50%;
+  background-color: #000;
 }
 
 .about__logo-image {
-  display: flex;
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-  background-color: #000;
-  background-image: url(../images/logo-white.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 148px 114px;
+  scale: 62%;
 }
 
 .about__title {
@@ -377,10 +364,6 @@ footer {
   text-align: center;
 }
 
-.footer__menu-list {
-
-}
-
 .footer__menu-list-item {
   list-style: none;
 }
@@ -418,8 +401,4 @@ footer {
 .footer__social-link {
   width: 48px;
   height: 48px;
-}
-
-.footer__social-icon {
-
 }
