@@ -226,12 +226,14 @@ section {
 }
 
 .card-link {
+  display: flex;
 
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 430px;
   height: 450px;
 }
@@ -252,6 +254,7 @@ section {
 }
 
 .card__title {
+  display: flex;
   color: #FFF;
   font-family: Raleway;
   font-size: 22px;
@@ -266,7 +269,7 @@ section {
 }
 
 .card__text {
-  display: table-cell;
+  display: flex;
   color: #FFF;
   font-family: Raleway;
   font-size: 20px;
@@ -275,7 +278,6 @@ section {
   line-height: 120%;
   margin: 10px 40px 50px 40px;
   z-index: 1;
-  vertical-align: bottom;
   }
 
 .lots__look-more-link {
